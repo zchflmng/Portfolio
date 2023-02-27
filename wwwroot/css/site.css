@@ -1,0 +1,326 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+
+html {
+  font-size: 14px;
+}
+
+div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+h1 {
+  font-size: 7vh;
+  
+}
+
+h2 {
+  flex: auto;
+  display:flex;
+  max-width: fit-content;
+  max-height: 7vh;
+  font-size: 4vh;
+  align-items:center;
+}
+
+.skl {
+    right: 10vw;
+
+}
+
+p {
+    position: relative;
+    flex: auto;
+    max-width: fit-content;
+    font-size: 5vh;
+    margin:0px;
+    
+}
+
+li {
+    display: flex;
+}
+
+::placeholder {
+    color: rgba(232, 253, 87, 1);
+}
+
+input {
+    flex: auto;
+    border-style: solid;
+    text-indent: 0.5em;
+    min-width: 22vw;
+    max-width: 22vw;
+    min-height: 12vh;
+    font-size: 5vh;
+    border: 2px solid rgba(232, 253, 87, 1);
+    border-bottom-left-radius: 8% 40%;
+    border-bottom-right-radius: 8% 40%;
+    border-top-left-radius: 8% 40%;
+    border-top-right-radius: 8% 40%;
+}
+textarea {
+    padding: 5px;
+    text-indent: 0.5em;
+    border-style: solid;
+    min-width: 66vw;
+    max-width: 68vw;
+    min-height: 33vh;
+    max-height: 44vh;
+    font-size: 5vh;
+    border: 2px solid rgba(232, 253, 87, 1);
+    border-bottom-left-radius: 5% 15%;
+    border-bottom-right-radius: 5% 15%;
+    border-top-left-radius: 5% 15%;
+    border-top-right-radius: 5% 15%;
+}
+.f5 {
+  font-size: 5vh;
+}
+
+.f3 {
+  font-size: 3vh;
+}
+
+.w400 {
+  font-weight: 300;
+}
+
+
+.pl{
+  padding-left: 3vw;
+}
+
+#jcs {
+    justify-content: start;
+}
+
+#hero {
+    position:relative;
+    min-height: 55vh;
+    max-height: 55vh;
+}
+
+@media (max-width: 695px) {
+  html {
+    font-size: 16px;
+  }
+
+  form {
+    flex-direction: column;
+
+  }
+
+  
+  input {
+    flex-direction: column;
+    min-width: 68vw;
+    max-width: 68vw;
+    border-bottom-left-radius: 5% 30%;
+    border-bottom-right-radius: 5% 30%;
+    border-top-left-radius: 5% 30%;
+    border-top-right-radius: 5% 30%;
+  }
+  #input {
+    justify-content: center;
+  }
+
+  textarea {
+    border-bottom-left-radius: 10% 20%;
+    border-bottom-right-radius: 10% 20%;
+    border-top-left-radius: 10% 20%;
+    border-top-right-radius: 10% 20%;
+  }
+
+  .skl {
+    right: 0vw;
+  }
+
+  .btn {
+    top: 8vh;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+#jce {
+    justify-content: flex-end;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+form {
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+}
+
+body {
+  margin:0px;
+}
+
+.bgb {
+    background-color: rgba(37, 31, 26, 1);
+}
+
+.bgc {
+    background-color: rgba(251, 143, 103);
+}
+
+.bgw {
+    background-color: rgba(239, 240, 241, 1);
+}
+
+.bgcv {
+    background-color: rgba(123, 97, 135, 1);
+}
+
+.bgbl {
+    background-color: rgba(66, 97, 131, 1);
+}
+
+.ll {
+    color: rgba(232, 253, 87, 1);
+}
+
+.ab {
+    color: rgba(101, 175, 255, 1);
+}
+
+.lap {
+    color: rgba(66, 97, 131, 1);
+}
+
+.eb {
+    color: rgba(37, 31, 26, 1);
+}
+
+.cv {
+    color: rgba(123, 97, 135, 1);
+}
+
+.aw {
+    color: rgba(239, 240, 241, 1);
+}
+
+.btn {
+    display: flex;
+    position: relative;
+    font-family: 'Chivo Mono', Times, serif;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 3vh;
+    font-size-adjust: initial;
+    border-radius: 22%;
+    box-sizing: border-box;
+    border: 2px solid rgba(232, 253, 87, 1);
+    max-width: 150px;
+    min-width: 25vw;
+    justify-content: center;
+    max-height: 15vh;
+    min-height: 75px;
+    border-bottom-left-radius: 15% 30%;
+    border-bottom-right-radius: 15% 30%;
+    border-top-left-radius: 15% 30%;
+    border-top-right-radius: 15% 30%;
+    padding: 5vh;
+    align-items: center;
+    left: 40vw;
+    top: 12vh;
+}
+
+.logo {
+    max-height: 2vh;
+    max-width: 2vw;
+}
+.text {
+    font-family: 'Chivo Mono', Times, serif;
+    letter-spacing: -0.02rem;
+    line-height: 120%;
+    word-spacing: -0.01rem;
+    
+    
+    
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    min-width: fit-content;
+   
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+    border-bottom-left-radius: 25% 15%;
+    border-bottom-right-radius: 25% 15%;
+    border-top-left-radius: 25% 15%;
+    border-top-right-radius: 25% 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    min-height: 88vh;
+    max-height: 88vh;
+    min-width: 200px;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 33px;
+    border-radius: 11%;
+    margin: 4px;
+}
+
+
+
+.sk {
+    position: absolute;
+    flex: auto;
+    max-width: 55vw;
+    max-height: 55vh;
+/*    left: 15px;
+    top: 550px;*/
+/*    z-index: 2;*/
+   
+}
+
+.fc {
+    flex-flow: column wrap;
+}
+
+.w {
+    position: relative;
+    flex: 0 1 1;
+    max-width: 55vw;
+    max-height:55vh;
+    right: 28px;
+    z-index: 2;
+}
+
+.s {
+    position: absolute;
+    flex: auto;
+    background-color: rgba(232, 253, 87, 1);
+    background: radial-gradient(transparent 20%, rgba(232, 253, 87, 1) 90%);
+    border-radius: 35%;
+    max-width: 35vw;
+    max-height: 35vh;
+    right: 33px;
+    top: 5vh;
+    z-index: 2;
+}

@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Zach Fleming";
+}
+
+<div class="container bgb">
+    <div class="box bgb" id="hero">
+        <h1 class="text ll">
+            Zach Fleming.
+            <br />Full Stack Developer.
+        </h1>
+        
+        <div style="right:10px; top:50px;">
+            <img class="s" src="~/img/me3.png">
+            <a class="btn bgb ll">Get in touch!</a>
+        </div>
+       
+    </div>
+    <div class="box bgcv">
+
+        <h2 class="text eb w400">Stack</h2>
+        <p class="text eb w400 skl" style="align-self:center;">
+            ASP.NET Core
+            <br /> HTML
+            <br /> CSS
+            <br />JQUERY
+            <br />AJAX
+            <br />SQL
+            <br />Postgres
+            <br />EF Core
+            <br />Docker
+            <br />GCloud
+        </p>
+    </div>
+    <div class="box bgc" id="jcs">
+        <h2 class="text lap">Projects</h2>
+        <div class="card bgbl" style="align-self:center;">
+            <h2 class="text aw">Board.Town</h2>
+            <div>
+                <img class="w"  src="~/img/WaterTower.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="box bgbl">
+        <h2 class="text bgbl ll">Contact</h2>
+        <form id="form" class="input--text" method="post" enctype="multipart/form-data">
+            
+                <div class="text " id="input">
+                    <input name="Name" id="Name" class="text bgbl ll" placeholder="Name" />
+                    <span required class="text-danger"></span>
+                
+                
+                    <input name="E-mail" id="E-mail" class="text bgbl ll" placeholder="E-mail" />
+                    <span required class="text-danger"></span>
+                
+                
+                    <input name="Subject" id="Subject" class="text bgbl ll" placeholder="Subject" />
+                    <span required class="text-danger"></span>
+                </div>
+                <div>
+                    <textarea name="Message" id="Message" class="text bgbl ll" placeholder="Message"></textarea>
+                    <span required class="text-danger"></span>
+                </div>
+            
+        </form>
+    </div>
+</div>
+
